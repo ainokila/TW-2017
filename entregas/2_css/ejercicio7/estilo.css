@@ -1,0 +1,9 @@
+﻿#cookie{
+	width: 40%;
+	height: auto;
+	text-align: center;
+	background: #eff5ff;
+	box-shadow: 2px 2px 5px #999;
+	display: table;
+	margin: auto;
+}
