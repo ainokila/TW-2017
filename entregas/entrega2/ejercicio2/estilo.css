@@ -1,0 +1,34 @@
+﻿div{
+	background: #dadee5;
+	height: 50px;
+	width: 60%;
+	margin: 0px auto;
+}
+div ul{
+	padding-top: 12px;
+	list-style: none;
+}
+
+div ul li a{
+	text-decoration: none;
+	color: grey;
+}
+
+
+#anterior{
+	float: left;
+}
+#siguiente{
+	float: right;
+	padding-right: 30px;
+}
+
+
+#siguiente::after{
+	content: "»";
+}
+
+
+#anterior::before{
+	content: "«";
+}

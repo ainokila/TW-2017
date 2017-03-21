@@ -1,0 +1,61 @@
+﻿body{
+	background: #ddfdff;
+}
+
+h1{
+	background: #c9d3e2;
+	color: dodgerblue;
+	text-align: center;
+	padding-top: 50px;
+	padding-bottom: 50px;
+
+}
+
+#descripcion{
+	margin-top: 40px;
+	font:bold 15px "Trebuchet MS"; 
+}
+
+#valores{
+	list-style: none;
+	background: #ffcb72;
+	padding-top: 20px;
+	padding-bottom: 20x;
+}
+
+#valores li{
+	padding-top: 0px;
+	padding-bottom: 0px;
+
+}
+#valores p{
+	padding-left: 20px;
+}
+
+#pie-pagina{
+	height: 50px;
+	background: #7aadff;
+	clear: both;
+}
+
+footer ul{
+	list-style: none;
+	padding-top: 14px;
+}
+
+footer ul li{
+	float: left;
+	width: 50%;
+	text-align: center;
+}
+
+
+#global #izq{
+	width: 50%;
+	float: left;
+}
+
+#global #der{
+	width: 50%;
+	float: left;
+}
