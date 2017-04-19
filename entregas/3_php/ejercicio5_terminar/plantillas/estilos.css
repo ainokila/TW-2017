@@ -1,0 +1,104 @@
+body {
+    background-image: url("http://www.solprof.com/sites/default/files/fondo-01.jpg");
+    background-color: #cccccc;
+}
+
+
+header{
+	padding: 0px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 8px;
+	margin: 0px;
+	background: #ffd78e;
+}
+
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+section{
+	padding-left: 35px;
+	padding-right: 35px;
+}
+
+footer{
+	display: table;
+	margin: auto;
+	width: 40%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+.interior{
+	padding-left: 25px;
+}
+
+.left{
+	float: left;
+	padding-right: 30px;
+}
+
+.left img{
+	width: 300px;
+}
+
+.rigth{
+	float: right;
+}
+
+#present::after{
+	content: "";
+    clear: both;
+    display: table;
+}
+
+#balon::after{
+	content: "";
+    clear: both;
+    display: table;
+}
+
+#karate::after{
+	content: "";
+    clear: both;
+    display: table;
+}
+
+nav{
+	padding-left: 25px;
+	padding-bottom: 35px;
+}
+nav ul{
+	padding: none;
+	width: 100%;
+	padding-left: 0px;
+	padding-top: 0px;
+
+}
+
+
+nav ul li{
+	display: inline;
+}
+
+nav ul li a {
+	font-family: Arial;
+	font-size:11px;
+	text-decoration: none;
+	float:left;
+	padding: 10px;
+	background-color: #2175bc;
+	color: #fff;
+	width: 23%;
+	text-align: center;
+}
+
+
+nav ul li a:hover {
+	background-color: #2586d7;
+	margin-top:-2px;
+	padding-bottom:12px;
+}
+
