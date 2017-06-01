@@ -1,3 +1,10 @@
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
 footer {
   background-color: #B12626;
 }
@@ -5,6 +12,11 @@ footer {
 body{
   background-color: #F2ECE8;
   padding: 0px;
+  border: 0px
+  width:90%;
+
+  padding-left: 8%;
+  padding-right: 8%;
 
 }
 
@@ -28,16 +40,6 @@ footer ul li{
   padding: 8px;
 }
 
-nav ul{
-  background-color: #b3bbc9;
-}
-nav ul li{
-  display: inline;
-}
-
-nav ul div{
-  float: right;
-}
 
 body article section img{
   float: left;
@@ -53,11 +55,15 @@ article section ul{
 
 header h1{
   float: left;
+  color: #fffbed;
+
 }
 
 header div{
   float: right;
-  display: inline;
+  width: 30%;
+  color: #fffbed;
+
 }
 
 
@@ -66,11 +72,17 @@ aside{
 }
 
 aside img {
-  width: 75%;
+  width: 300px;
+  padding-bottom: 10px;
+}
+
+aside {
+  width: 300px;
+  padding-right: 50px;
 }
 
 article{
-  width: 70%;
+  width: 60%;
 }
 
 div article{
@@ -78,5 +90,281 @@ div article{
 }
 
 div aside{
-  float:right;
+  float: right;
+}
+
+/********************Nuevo***************************************/
+.titulo{
+  padding:30px;
+}
+
+.lateral {
+  list-style: none;
+  margin: 0;
+  padding: 40px;
+  overflow: hidden;
+  border-right: 50px;
+}
+.lateral li {
+  float: left;
+  width: 60px;
+  list-style: none;
+
+}
+.lateral li a {
+  display: inline-block;
+  padding: 1em;
+  text-decoration: none;
+
+}
+
+
+/*********************************Menu**********************************/
+
+.izquierdaMenu{
+  float: left;
+}
+
+.derechaMenu{
+  float: right;
+  padding-left: 50px;
+}
+
+.menu{
+  width: 100%;
+  overflow: auto;
+  height: 22px;
+}
+
+
+.menu ul li a{
+     text-decoration: none;
+     color: #0064000;
+}
+
+.menu ul {
+  padding-bottom: 1px;
+  padding-left: 30px;
+  padding-right: 5%;
+}
+
+nav {
+  background-color: #e8dfda;
+}
+
+nav ul li{
+  display: inline;
+  padding-right: 30px;
+}
+
+
+/**********************************Article y h2****************************/
+
+h2{
+  padding: 30px;
+  font-weight: none ;
+  font-size: 34px;
+  font-weight: normal;
+  color: #535a66;
+
+}
+
+article{
+  padding-left: 40px;
+}
+
+article section{
+  padding: 15px;
+}
+
+article section div h3{
+    color: #911414;
+    padding-bottom: 3px;
+
+}
+article section div{
+  padding-left: 120px;
+}
+
+article section div ul{
+  padding-top: 10px;
+  padding-left: 40px;
+}
+
+article ul {
+  list-style: none;
+  font-weight: bold;
+}
+
+article ul li::before{
+    content: "> ";
+    font-weight: bold;
+}
+
+
+
+/**********************************Cifras*******************************************/
+.cifras h3{
+  color: #911414;
+  padding-bottom: 5px;
+
+}
+.cifras h4{
+    font-weight: normal;
+    text-transform: uppercase;
+    font-size: small;
+    padding: 3px;
+}
+
+.cifras{
+  background-color: #e8dfda;
+  padding: 15px;
+  color: #535a66;
+  overflow: auto;
+  border-radius: 10px;
+
+}
+
+.cifras ul{
+  padding-left: 40px;
+}
+
+.mas{
+  float: right;
+  text-transform: uppercase;
+  padding-top: 3px;
+  font-size: small;
+}
+
+/**************************************TAMBIEN******************************************/
+.tambien{
+  padding: 10px;
+}
+.tambien img{
+  padding-top: 5px;
+  width: 50px;
+}
+
+.izq{
+  float: left;
+  width: 15%;
+}
+
+.der{
+  float: right;
+  overflow: auto;
+  width: 80%;
+}
+
+.der h3{
+  padding-bottom: 4px;
+}
+
+/**************************************subPIE PAGINA***********************************/
+
+.agrupa{
+  padding: 30px;
+  overflow: auto;
+  background-color: #e8dfda;
+
+
+}
+
+.subpie{
+  float: left;
+  width: 85%;
+  padding: 0;
+  overflow: auto;
+}
+
+.subpie ul{
+  list-style: none;
+}
+.subpie div {
+  float: left;
+  padding: 10px;
+  width: 20%;
+}
+
+.menupie{
+  float: right;
+  width: 10%;
+  padding-right: 25px;
+  padding-top: 40px;
+}
+
+.menupie ul{
+  list-style: none;
+
+}
+.menupie ul a{
+    background-color: #efe7cb;
+    color: black;
+    display: block;
+    border-bottom:2px solid rgba(0,0,0,.5);
+
+    padding: 12px; 
+    text-decoration: none;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.clear{
+    clear: both;
+    display: block;
+    content: "";
+}
+
+a{
+  text-decoration: none;
+  color: #3a3c3f;
+  padding-bottom: 3px;
+}
+
+li{
+  padding-bottom: 3px;
+}
+
+.cuerpo{
+  color: #535a66;
+}
+
+.busqueda{
+  border-radius: 5px;
+}
+
+.subpie div h5{
+    text-transform: uppercase;
+    color: #911414;
+    padding-bottom: 2px;
+
+
+}
+
+
+/******************************PIE PAGINA************************************/
+
+footer{
+  overflow: auto;
+  padding: 20px;
+  color: #fffbed;
+}
+
+footer ul a{
+  color: #fffbed;
+}
+
+footer .izq{
+  padding-top: 20px;
+  text-align: center;
+}
+
+footer .derecho{
+  padding-left: 50px;
+  width: 50%;
+  margin: 0 auto;
+}
+
+i{
+  padding-right: 2px;
 }
